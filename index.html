@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment Film Finder</title>
+    <link rel="stylesheet" value="text/css" href="style.css" />
+    <script defer src="movie_database.js?speed=2"></script>
+    <script defer src="script.js?speed=2"></script>
+  </head>
+  <body>
+    <div class="header_box"><div class="header"><h1>Winc Movie finder</h1></div></div>
+    <div class="menu" id="menu">
+      <nav>
+        <input
+          type="radio"
+          id="latest"
+          name="filter_btn"
+          value="Latest movies, 2014 or newer"
+        /><label>Latest movies, 2014 or newer</label>
+        <input
+          type="radio"
+          id="avenger"
+          name="filter_btn"
+          value="Avenger movies"
+        /><label>Avenger movies</label>
+        <input
+          type="radio"
+          id="x-men"
+          name="filter_btn"
+          value="X-men movies"
+        /><label>X-men movies</label>
+        <input
+          type="radio"
+          id="princess"
+          name="filter_btn"
+          value="Princess movies"
+        /><label>Princess movies</label>
+        <input
+          type="radio"
+          id="batman"
+          name="filter_btn"
+          value="Batman movies"
+        /><label>Batman movies</label>
+        <input
+        type="radio"
+        id="all_movies"
+        name="filter_btn"
+        value="All movies"
+      /><label>All movies</label>
+      <input
+        type="search"
+        id="search_movies"
+        name="search_btn"
+        value="search..."
+      /><label></label>
+      </nav>
+    </div>
+    <div class="container" id="container"><ul id="list_of_movie"></ul></div>
+  </body>
+</html>
